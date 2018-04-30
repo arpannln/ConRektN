@@ -1,0 +1,12 @@
+.board {
+  display: flex;
+  width: 600px;
+  height: 600px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.square {
+  display: flex;
+  box-sizing: border-box;
+}

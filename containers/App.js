@@ -15,6 +15,12 @@ export default class App extends Component {
     }
 
     render () {
-        return <p>This is my new react app</p>;
+      return (
+        <div className="board">
+         {this.state.board.map((cell, index) => {
+           return <div onClick={() => this.handleClick(index)} key={index} className="square">{cell}</div>;
+         })}
+         </div>
+      );
     }
 }
