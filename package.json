@@ -37,5 +37,10 @@
     "less": "^3.0.2",
     "less-loader": "^4.1.0",
     "style-loader": "^0.21.0"
-  }
+  },
+  "scripts": {
+  "test": "echo \"Error: no test specified\" && exit 1",
+  "dev": "./node_modules/.bin/webpack-dev-server --config ./webpack/webpack.dev.config.js"
+  },
+
 }
