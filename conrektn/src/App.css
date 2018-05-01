@@ -8,9 +8,18 @@
 }
 
 .square {
+  display: flex;
   color: red;
   width: 200px;
   height: 200px;
   border: 2px solid black;
   box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  font-size: 15em;
+}
+
+.square:hover {
+  cursor: pointer;
+  background-color: green;
 }
